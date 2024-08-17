@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="k.jpeg">
+    <title>Mohsen Academy | اكاديمية تعليم البرمجة</title>
+<style>
+    *{
+        border:0;
+        margin:0;
+        text-decoration:none;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    body{
+        background-color:azure;
+    }
+    nav{
+        display:flex;
+        justify-content:space-between;
+        width:50px;
+        min-width:800px;
+    }
+    .btn{
+        background-color:aliceblue;
+        width:70px;
+        height:50px;
+    }
+    .btn:hover{
+        background-color:antiquewhite;
+        cursor:pointer;
+    }
+    .nav{
+        background-color:white;
+        width:100%;
+        height:auto;
+    }
+    .s{
+        margin-left:100px;
+        background-color:rgb(204, 249, 249);
+        height:30px;
+        margin-top:10px;
+        border-radius:20px;
+        margin-right:10px;
+    }
+    .t{
+        background-color:rgb(2, 1, 19);
+        height:650px;
+        width:100%;
+        display:none;
+    }
+    .button{
+        background-color:cadetblue;
+        font-size:20px;
+        border-radius:10px;
+    }
+    .button:hover{
+        background-color:rgb(80, 134, 136);
+        cursor:pointer;
+    }
+    .dvd{
+        background-color:rgb(2, 1, 19);
+        height:650px;
+        width:100%;
+        display:none;
+    }
+    .bom{
+        background-color:rgb(2, 1, 19);
+        height:800px;
+        width:100%;
+        display:none;
+    }
+    .bar{
+        background-color:darkgray;
+        width:150px;
+        height:200px;
+        margin-left:200px;
+        border-radius:10px;
+    }
+    .html{
+        background-color:azure;
+        width:100%;
+        height:5000px;
+        display:none;
+    }
+    .htl{
+        background-color:lightseagreen;
+        height:auto;
+        width:60%;
+        border-radius:10px;
+        margin-left:10px;
+        padding:10px;
+    }
+    .tl{
+        font-size:20px;
+        background-color:aliceblue;
+        color:brown;
+    }
+    .not{
+        background-color:rgb(168, 4, 4);
+        width:60%;
+        height:auto;
+        border-radius:10px;
+        padding:10px;
+        margin-left:10px;
+    }
+    .code{
+        height:auto;
+        width:20%;
+        background-color:rgb(217, 231, 231);
+        border-radius:10px;
+        padding:10px;
+    }
+    .incode{
+      background-color:antiquewhite;
+      height:auto;
+      width:80%;
+      border-radius:5px;
+      padding:5px;
+    }
+    .coder{
+        height:auto;
+        width:40%;
+        background-color:rgb(217, 231, 231);
+        border-radius:10px;
+        padding:10px;
+    }
+    .incoder{
+      background-color:antiquewhite;
+      height:auto;
+      width:80%;
+      border-radius:5px;
+      padding:5px;
+    }
+    .con{
+        position:fixed;
+        width:100%;
+        height:auto;
+    }
+    .css{
+        background-color:azure;
+        height:5000px;
+        width:100%;
+        display:none;
+    }
+    .js{
+        background-color:azure;
+        width:100%;
+        height:4000px;
+        display:none;
+    }
+    .ht{
+        background-color:beige;
+        width:450px;
+        height:auto;
+        border-radius:10px;
+        display:none;
+    }
+    .home{
+        width:100%;
+        height:5000px;
+    }
+    .con{
+        width:100%;
+        height:auto;
+        background-color:rgb(10, 5, 78);
+        color:white;
+    }
+</style>    
+</head>
+<body>
+    <div class="con"><div class="nav"><nav><img src="k.jpeg" alt="Photo" width="50px" height="50px"><button onclick="trun()" class="btn">Tutorials</button><button onclick="dvd()" class="btn">Exercises</button><button onclick="redm()" class="btn">Services</button><input class="s" placeholder="Mohsen" id="s"><button onclick="ddd()" id="r" class="btn">Dark</button></nav></div></div>
+    <div class="t">
+        <h1>ttttt</h1>
+        <center>
+            <font color="cadetblue" size="50px"><b>Tutorials</b></font>
+            <h1></h1>
+            <table border="1">
+            <tr>
+            <td><font color="cadetblue" style="font-size:20px;">HTML and CSS</font></td>
+            <td><font color="cadetblue" style="font-size:20px;">JavaScript</font></td>
+            </tr>
+            </table>
+            <h1 style="margin:50px;"></h1>
+            <nav><h3 style="color:cadetblue;"><button style="background-color:brown;font-size:15px;border-radius:10px;" onclick="html()">learn html</h3><h3 style="color:cadetblue;"><button style="background-color:brown;font-size:15px;border-radius:10px;" onclick="css()">learn css</button></h3><h3 style="color:cadetblue;"><button style="background-color:brown;font-size:15px;border-radius:10px;" onclick="js()">learn javaScript</button></h3><h3 style="color:cadetblue;">learn frontEnd</h3></nav>
+            <h1 style="margin:50px;"></h1>
+            <h1 style="margin:50px;"></h1>
+            <h1 style="margin:50px;"></h1>
+            <table border="1">
+                <tr>
+                <td><font color="cadetblue" style="font-size:20px;">C++ and Python</font></td>
+                <td><font color="cadetblue" style="font-size:20px;">Php</font></td>
+                </tr>
+                </table>
+                <h1 style="margin:50px;"></h1>
+                <nav><a href="https://shorturl.at/rDfvk"><h3 style="color:cadetblue;">Look c++</h3></a><a href="https://shorturl.at/AK81y"><h3 style="color:cadetblue;">Look python</h3></a><a href="https://shorturl.at/7EiZy"><h3 style="color:cadetblue;">Look php</h3></a></nav>
+                <h1 style="margin:50px;"></h1>
+                <h1 style="margin:50px;"></h1>
+                <button onclick="hide()" class="button">Close</button>
+        </center>
+    </div>
+    <div class="dvd">
+        <h1>ttttt</h1>
+        <center>
+            <font color="cadetblue" size="50px"><b>Exercises</b></font>
+            <h1></h1>
+            <table border="1">
+            <tr>
+            <td><font color="cadetblue" style="font-size:20px;">HTML and CSS</font></td>
+            <td><font color="cadetblue" style="font-size:20px;">JavaScript</font></td>
+            </tr>
+            </table>
+            <h1 style="margin:50px;"></h1>
+            <nav><a href="https://shorturl.at/1st4e"><h3 style="color:cadetblue;"><button style="background-color:brown;font-size:15px;border-radius:10px;">quiz html</button></h3></a><a href="https://shorturl.at/AMEqr"><h3 style="color:cadetblue;"><button style="background-color:brown;font-size:15px;border-radius:10px;">quiz css</button></h3></a><a href="https://shorturl.at/JjX1M"><h3 style="color:cadetblue;"><button style="background-color:brown;font-size:15px;border-radius:10px;">quiz javaScript</button></h3></a><h3 style="color:cadetblue;">quiz frontEnd</h3></nav>
+            <h1 style="margin:50px;"></h1>
+            <h1 style="margin:50px;"></h1>
+            <h1 style="margin:50px;"></h1>
+            <button onclick="hide2()" class="button">Close</button>
+        </center>
+    </div>
+    <h1>ttttt</h1>
+    <div class="bom">
+        <font color="cadetblue" size="50px"><b>All Our Services</b></font>
+        <h1 style="margin:50px;"></h1>
+        <h1 style="margin:50px;"></h1>
+        
+        <nav><div class="bar"><img style="width:100%;height:auto;" src="https://www.cnet.com/a/img/resize/b9b09bd80b3129a6a5da79d9bd17487b977c9677/hub/2014/10/27/40194e6e-2544-419e-a340-f7c17b2e83c5/html5-wow-image-w3c.jpg?auto=webp&width=768" alt="Photo"><h4>Html course</h4><h1 style="margin:10px;"></h1><button onclick="led()" class="button">Start</button></div></nav>
+        <h1 style="margin:50px;"></h1>
+        <div class="bar"><img style="width:100%;height:auto;" src="https://s3-sgn09.fptcloud.com/codelearnstorage/CodeCamp/CodeCamp/Upload/Course/8c4eed15a33744e996461692464ebc7f.jpg" alt="Photo"><h4>JavaScript course</h4><h1 style="margin:10px;"></h1><button onclick="led()" class="button">Start</button></div>
+        <div class="bar"><img style="width:100%;height:auto;" src="https://miro.medium.com/v2/resize:fit:600/1*OFsc0SD55jhi8cjo7aCA4w.jpeg" alt="Photo"><h4>Css course</h4><h1 style="margin:10px;"></h1><button onclick="led()" class="button">Start</button></div>
+        <button onclick="hide3()" class="button">Close</button>
+        <h1 style="margin:50px;"></h1>
+        
+    </div>
+    <h1>ttttt</h1>
+    <div class="html">
+        <font color="cadetblue" size="50px"><b>Learn html</b></font>
+        <h1 style="margin:50px;"></h1>
+        <div class="htl">
+            <p>HTML is the standard markup language for Web pages.</p>
+            <p>With HTML you can create your own Website.</p>
+            <p>HTML is easy to learn - You will enjoy it!</p>
+        </div>
+        <h1 style="margin:50px;"></h1>
+        <h2>HTML Documents</h2>
+        <h1 style="margin:30px;"></h1>
+        <p>All HTML documents must start with a document type declaration: < !DOCTYPE html></p>
+        <h1 style="margin:10px;"></h1>
+        <p>The HTML document itself begins with < html> and ends with < /html>.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>The visible part of the HTML document is between < body> and < /body>.</p>
+        <h1 style="margin:30px;"></h1>
+        <div class="not">
+            <p>The html code be not a html code when you write a space < here html></p>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <div class="code">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incode">
+                <p>< !DOCTYPE html></p>
+                <p>< html></p>
+                <p>< body></p>
+                <p>< h1>My First Heading< /h1></p>
+                <p>< p>My first paragraph.< /p></p>
+                <p>< /body></p>
+                <p>< /html></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>The < !DOCTYPE> Declaration</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>The < !DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>It must only appear once, at the top of the page (before any HTML tags).</p>
+        <h1 style="margin:10px;"></h1>
+        <p>The <!DOCTYPE> declaration is not case sensitive.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>The <!DOCTYPE> declaration for HTML5 is:</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="code">
+            <div class="incode">
+                <p>< !DOCTYPE html></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>HTML Headings</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>HTML headings are defined with the < h1> to < h6> tags.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>< h1> defines the most important heading. < h6> defines the least important heading: </p>
+        <h1 style="margin:30px;"></h1>
+        <div class="code">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incode">
+                <p>< h1>This is heading 1< /h1></p>
+                <p>< h2>This is heading 2< /h2></p>
+                <p>< h3>This is heading 3< /h3></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>HTML Paragraphs</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>HTML paragraphs are defined with the < p> tag:</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="code">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incode">
+                <p>< p>This is a paragraph.< /p></p>
+                <p>< p>This is another paragraph.< /p></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>HTML Links</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>HTML links are defined with the < a> tag:</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="code">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incode">
+             <p>< a href="weblink">This is a link< /a></p>
+            </div>
+        </div>
+        <h1 style="margin:10px;"></h1>
+        <p>The link's destination is specified in the href attribute. </p>
+        <h1 style="margin:10px;"></h1>
+        <p>Attributes are used to provide additional information about HTML elements.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>You will learn more about attributes in a later chapter.</p>
+        <h1 style="margin:30px;"></h1>
+        <h2>HTML Images</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>HTML images are defined with the < img> tag.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>The source file (src), alternative text (alt), width, and height are provided as attributes:</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="coder">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incoder">
+                <p>< img src="imagelink.jpg" alt="photo" width="104" height="142"></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>HTML Headings</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>HTML headings are defined with the < h1> to < h6> tags.</p>
+        <p>< h1> defines the most important heading. < h6> defines the least important heading.</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="code">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incode">
+                <p>< h1>Heading 1< /h1></p>
+                <p>< h2>Heading 2< /h2></p>
+                <p>< h3>Heading 3< /h3></p>
+                <p>< h4>Heading 4< /h4></p>
+                <p>< h5>Heading 5< /h5></p>
+                <p>< h6>Heading 6< /h6></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>The HTML < title> Element</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>The < title> element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>The < title> element is required in HTML documents!</p>
+        <h1 style="margin:10px;"></h1>
+        <p>The content of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when</p>
+        <h1 style="margin:10px;"></h1>
+        <p>listing pages in search results.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>The < title> element:</p>
+        <h1 style="margin:10px;"></h1>
+        <ul>
+            <li>defines a title in the browser toolbar</li>
+            <li>provides a title for the page when it is added to favorites</li>
+            <li>displays a title for the page in search engine-results</li>
+        </ul>
+        <h1 style="margin:10px;"></h1>
+        <p>So, try to make the title as accurate and meaningful as possible!</p>
+        <h1 style="margin:10px;"></h1>
+        <p>A simple HTML document:</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="code">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incode">
+                <p>< !DOCTYPE html></p>
+                <p>< html></p>
+                <p>< head></p>
+                <p>< title>A Meaningful Page Title< /title></p>
+                <p>< /head></p>
+                <p>< body></p>
+                <p>The content of the document......</p>
+                <p>< /body></p>
+                <p>< /html></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h1 style="margin:30px;"></h1>
+        <h1 style="margin:30px;"></h1>
+        <h2>A video for you</h2>
+        <h1 style="margin:10px;"></h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LgAzvsXEvUE?si=CoCTVR8xoGT9od6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h1 style="margin:10px;"></h1>
+        <button onclick="hide5()" class="button">Close</button>
+    </div>
+
+
+
+    <div class="css">
+        <font color="cadetblue" size="50px"><b>Learn css</b></font>
+        <h1 style="margin:30px;"></h1>
+        <h2>CSS Syntax</h2>
+        <h1 style="margin:10px;"></h1>
+        <div class="htl">
+        <p>A CSS rule consists of a selector and a declaration block.</p>
+        </div>
+        <h1 style="margin:10px;"></h1>
+        <img width="400px" height="100px" alt="Photo" src="https://www.w3schools.com/css/img_selector.gif">
+        <h1 style="margin:10px;"></h1>
+        <p>The selector points to the HTML element you want to style.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>The declaration block contains one or more declarations separated by semicolons.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+        <h1 style="margin:10px;"></h1>
+        <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="code">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incode">
+                <p>p {</p>
+                <p>color: red;</p>
+                <p>text-align: center;</p>
+                <p>}</p>
+            </div>
+        </div>
+        <h1 style="margin:10px;"></h1>
+        <h2>Example Explained</h2>
+        <ul>
+            <li>p is a selector in CSS (it points to the HTML element you want to style: < p>).</li>
+            <li>color is a property, and red is the property value</li>
+            <li>text-align is a property, and center is the property value</li>
+        </ul>
+        <h1 style="margin:30px;"></h1>
+        <h2>CSS Color Names</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>In CSS, a color can be specified by using a predefined color name:</p>
+        <h1 style="margin:10px;"></h1>
+        <img width="900px" height="150px" alt="Photo" src="p.png">
+        <h1 style="margin:10px;"></h1>
+        <h2>CSS Background Color</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>You can set the background color for HTML elements:</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="coder">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incoder">
+                <p>< h1 style="background-color:DodgerBlue;">Hello World< /h1></p>
+                <p>< p style="background-color:Tomato;">Lorem ipsum...< /p></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>CSS Text Color</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>You can set the color of text:</p>
+        <h1 style="margin:10px;"></h1>
+        <h1 style="color:Tomato;">Hello World</h1>
+        <p style="color:DodgerBlue;">Lorem ipsum...</p>
+        <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="coder">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incoder">
+                <p>< h1 style="color:Tomato;">Hello World< /h1></p>
+                <p>< p style="color:DodgerBlue;">Lorem ipsum...< /p></p>
+                <p>< p style="color:MediumSeaGreen;">Ut wisi enim...< /p></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>CSS Border Color</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>You can set the color of borders:</p>
+        <h1 style="margin:10px;"></h1>
+        <h1 style="border:2px solid Tomato;width:50%;">Hello World</h1>
+        <h1 style="margin:10px;"></h1>
+        <h1 style="border:2px solid DodgerBlue;width:50%;">Hello World</h1>
+        <h1 style="margin:10px;"></h1>
+        <h1 style="border:2px solid Violet;width:50%;">Hello World</h1>
+        <h1 style="margin:10px;"></h1>
+        <h1 style="margin:10px;"></h1>
+        <div class="coder">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <div class="incoder">
+                <p>< h1 style="border:2px solid Tomato;">Hello World< /h1></p>
+                <p>< h1 style="border:2px solid DodgerBlue;">Hello World< /h1></p>
+                <p>< h1 style="border:2px solid Violet;">Hello World< /h1></p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>CSS Backgrounds</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>The CSS background properties are used to add background effects for elements.</p>
+        <h1 style="margin:10px;"></h1>
+        <img width="550px" height="200px" alt="Photo" src="redl.png">
+        <h1 style="margin:10px;"></h1>
+        <h2>CSS background-color</h2>
+        <h1 style="margin:10px;"></h1>
+        <p>The background-color property specifies the background color of an element.</p>
+        <h1 style="margin:10px;"></h1>
+        <div class="coder">
+            <h3>Example</h3>
+            <h1 style="margin:10px;"></h1>
+            <p>The background color of a page is set like this:</p>
+            <h1 style="margin:10px;"></h1>
+            <div class="incoder">
+              <p>body {</p>
+              <p>background-color: lightblue;</p>
+              <p>}</p>
+            </div>
+        </div>
+        <h1 style="margin:30px;"></h1>
+        <h2>A video for you</h2>
+        <h1 style="margin:10px;"></h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dODfPD2CLvo?si=GFdyRtPz7P8y_oHe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h1 style="margin:30px;"></h1>
+        <button onclick="hide6()" class="button">Close</button>
+    </div>
+    <div class="js">
+    <font color="cadetblue" size="50px"><b>JavaScript Tutorial</b></font>
+    <h1 style="margin:30px;"></h1>
+    <h2>The < script> Tag</h2>
+    <h1 style="margin:10px;"></h1>
+    <p>In HTML, JavaScript code is inserted between < script> and < /script> tags.</p>
+    <h1 style="margin:10px;"></h1>
+    <div class="coder">
+        <h3>Example</h3>
+        <h1 style="margin:10px;"></h1>
+        <div class="incoder">
+          <p>< script></p>
+          <p>document.getElementById("demo").innerHTML = "My First JavaScript";</p>
+          <p>< /script></p>
+        </div>
+    </div>
+    <h1 style="margin:10px;"></h1>
+    <h2>Single Line Comments</h2>
+    <h1 style="margin:10px;"></h1>
+    <p>Single line comments start with //.</p>
+    <h1 style="margin:10px;"></h1>
+    <p>Any text between // and the end of the line will be ignored by JavaScript (will not be executed).</p>
+    <h1 style="margin:10px;"></h1>
+    <p>This example uses a single-line comment before each code line:</p>
+    <h1 style="margin:10px;"></h1>
+    <div class="coder">
+        <h3>Example</h3>
+        <h1 style="margin:10px;"></h1>
+        <div class="incoder">
+            <p>// Change heading:</p>
+            <p>document.getElementById("myH").innerHTML = "My First Page";</p>
+            <p>// Change paragraph:</p>
+            <p>document.getElementById("myP").innerHTML = "My first paragraph.";</p>
+        </div>
+    </div>
+    <h1 style="margin:10px;"></h1>
+    <h2>JavaScript Variables</h2>
+    <h1 style="margin:10px;"></h1>
+    <p>In this first example, x, y, and z are undeclared variables.</p>
+    <p>They are automatically declared when first used:</p>
+    <h1 style="margin:10px;"></h1>
+    <div class="coder">
+        <h3>Example</h3>
+        <h1 style="margin:10px;"></h1>
+        <div class="incoder">
+            <p>x = 5;</p>
+            <p>y = 6;</p>
+            <p>z = x + y;</p>
+        </div>
+    </div>
+    <h1 style="margin:10px;"></h1>
+    <h2>JavaScript Can Change HTML Content</h2>
+    <h1 style="margin:10px;"></h1>
+    <p>One of many JavaScript HTML methods is getElementById().</p>
+    <p>The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript":</p>
+    <h1 style="margin:10px;"></h1>
+    <div class="coder">
+        <h3>Example</h3>
+        <h1 style="margin:10px;"></h1>
+        <div class="incoder">
+            <p>document.getElementById("demo").innerHTML = "Hello JavaScript";</p>
+        </div>
+    </div>
+    <h1 style="margin:30px;"></h1>
+    <h2>A video for you</h2>
+    <h1 style="margin:10px;"></h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TLgKx2B_y8U?si=9uknpe_aIlsptpgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1 style="margin:30px;"></h1>
+    <button onclick="hide7()" class="button">Close</button>
+    </div>
+    <div class="home">
+        <div class="con">
+            <center>
+                <h1>A World of learn and programing and work</h1>
+                <h1 style="margin:30px;"></h1>
+                <p>you can learn programing and work</p>
+                <h1 style="margin:10px;"></h1>
+                <button style="bakground-color:brown;font-size:20px;border-radius:15px;" onclick="trun()">Learn</button>
+                <h1 style="margin:10px;"></h1>
+                <a href="https://shorturl.at/Dughk"><button style="bakground-color:brown;font-size:20px;border-radius:15px;">Work</button></a>
+                <h1 style="margin:30px;"></h1>
+            </center>
+        </div>
+        
+        
+    </div>
+    <script>
+        let t = document.getElementsByClassName("t")[0];
+        let d = document.getElementsByClassName("dvd")[0];
+        let b = document.getElementsByClassName("bom")[0];
+        let h = document.getElementsByClassName("html")[0];
+        let c = document.getElementsByClassName("css")[0];
+        let j = document.getElementsByClassName("js")[0];
+        let ho = document.getElementsByClassName("home")[0];
+        
+       function trun(){
+          t.style.display="block";
+          d.style.display="none";
+          b.style.display="none";
+          h.style.display="none";
+          c.style.display="none";
+          j.style.display="none";
+          ho.style.display="none";
+       }
+       function hide(){
+        t.style.display="none";
+        d.style.display="none";
+        b.style.display="none";
+        c.style.display="none";
+        h.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function hide2(){
+        d.style.display="none";
+        t.style.display="none";
+        b.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function dvd(){
+        d.style.display="block";
+        t.style.display="none";
+        b.style.display="none";
+        h.style.display="none";
+        c.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function led(){
+        t.style.display="block";
+        d.style.display="none";
+        b.style.display="none";
+        c.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function hide3(){
+        b.style.display="none";
+        d.style.display="none";
+        t.style.display="none";
+        c.style.display="none";
+        h.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function redm(){
+        b.style.display="block";
+        d.style.display="none";
+        t.style.display="none";
+        h.style.display="none";
+        c.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function html(){
+        h.style.display="block";
+        t.style.display="none";
+        b.style.display="none";
+        d.style.display="none";
+        c.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function hide5(){
+        t.style.display="none";
+        b.style.display="none";
+        d.style.display="none";
+        h.style.display="none";
+        c.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function css(){
+        t.style.display="none";
+        b.style.display="none";
+        d.style.display="none";
+        h.style.display="none";
+        j.style.display="none";
+        c.style.display="block";
+        ho.style.display="none";
+       }
+       function hide6(){
+        t.style.display="none";
+        b.style.display="none";
+        d.style.display="none";
+        h.style.display="none";
+        c.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function js(){
+        t.style.display="none";
+        b.style.display="none";
+        d.style.display="none";
+        h.style.display="none";
+        c.style.display="none";
+        j.style.display="block";
+        ho.style.display="none";
+       }
+       function hide7(){
+        t.style.display="none";
+        b.style.display="none";
+        d.style.display="none";
+        h.style.display="none";
+        c.style.display="none";
+        j.style.display="none";
+        ho.style.display="none";
+       }
+       function ddd(){
+        document.body.style.backgroundColor="gray";
+       }
+    </script>
+</body>
+</html>
